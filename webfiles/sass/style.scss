@@ -76,7 +76,7 @@ main {
     #firstSection {
         background-color: $backgroundColor2;
         width: 100%;
-        padding-top: 10rem;
+        padding-top: 12rem;
 
         #firstBloc {
             margin: auto;
@@ -86,7 +86,7 @@ main {
 
         img {
             float: right;
-            margin-left: 80px;
+            margin-left: 5rem;
         }
 
         #contentText {
@@ -94,12 +94,12 @@ main {
             color: $white;
 
             h1 {
-                font-size: 65px;
+                font-size: 4.063rem;
                 font-family: $fontFamily1;
             }
 
             p {
-                font-size: 24px;
+                font-size: 1.5rem;
                 margin: 1.875rem 0;
                 font-family: sourceSansPro;
             }
@@ -123,6 +123,9 @@ main {
             max-width: 1400px;
             margin: auto;
             padding: 11.163rem 5rem 11.163rem 5rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
 
             img {
                 display: flex;
@@ -131,7 +134,8 @@ main {
             }
 
             h2 {
-                padding: 1.875rem 0;
+                margin-top: 1.875rem;
+                margin-bottom: 1.875rem;
                 text-align: center;
                 color: $white;
                 font-size: 65px;
@@ -154,7 +158,7 @@ main {
             margin: auto;
 
             h2 {
-                font-size: 65px;
+                font-size: 4.063rem;
                 text-align: center;
                 padding: 1.875rem 0;
                 color: $backgroundColor10;
@@ -186,7 +190,7 @@ main {
                     width: 220px;
                     align-items: center;
                     justify-content: center;
-                    font-size: 24px;
+                    font-size: 1.5rem;
                     color: $white;
                     left: 37%;
                     top: 10%;
@@ -204,7 +208,7 @@ main {
                     justify-content: center;
                     left: 44%;
                     top: 42%;
-                    font-size: 24px;
+                    font-size: 1.5rem;
                     color: $backgroundColor3;
                     font-family: sourceSansPro;
                 }
@@ -246,7 +250,7 @@ main {
                     width: 220px;
                     align-items: center;
                     justify-content: center;
-                    font-size: 24px;
+                    font-size: 1.5rem;
                     color: $backgroundColor2;
                     transform: translate(-50%, -50%);
                     left: 51%;
@@ -261,12 +265,12 @@ main {
                     background-color: $backgroundColor9;
                     border-radius: 100%;
                     height: 220px;
-                    width: 220px;
+                    width: 190px;
                     align-items: center;
                     justify-content: center;
                     left: 53%;
                     top: 20%;
-                    font-size: 24px;
+                    font-size: 1.5rem;
                     color: $white;
                     font-family: sourceSansPro;
                 }
@@ -307,14 +311,14 @@ footer {
                         text-transform: uppercase;
                         margin-bottom: 0.625rem;
                         color: $white;
-                        font-size: 24px;
+                        font-size: 1.5rem;
                         font-family: sourceSansPro;
                     }
 
                     p {
                         margin-bottom: 0.625rem;
                         color: $white;
-                        font-size: 24px;
+                        font-size: 1.5rem;
                         font-family: sourceSansPro;
                     }
 
@@ -331,14 +335,14 @@ footer {
                         text-transform: uppercase;
                         margin-bottom: 0.625rem;
                         color: $white;
-                        font-size: 24px;
+                        font-size: 1.5rem;
                         font-family: sourceSansPro;
                     }
 
                     p {
                         margin-bottom: 0.625rem;
                         color: $white;
-                        font-size: 24px;
+                        font-size: 1.5rem;
                         font-family: sourceSansPro;
                     }
                 }
@@ -369,18 +373,18 @@ footer {
             input {
                 display: flex;
                 margin: auto;
-                padding: 6px 10px 6px 10px;
+                padding: 0.375rem 0.625rem 0.375rem 0.625rem;
 
             }
 
             button {
                 display: flex;
                 margin: auto;
-                padding: 10px 35px 10px 35px;
+                padding: 0.625rem 2.188rem 0.625rem 2.188rem;
                 background: $backgroundColor4;
                 color: $white;
-                margin-top: 30px;
-                margin-bottom: 40px;
+                margin-top: 1.875rem;
+                margin-bottom:2.5rem;
                 cursor: pointer;
                 border: none;
                 font-family: sourceSansPro;
@@ -389,7 +393,7 @@ footer {
 
         #original {
             color: $white;
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 400;
             padding-left: 5rem;
             margin-top: 2rem;
@@ -427,32 +431,40 @@ footer {
         #balades {
             width: 50px;
         }
+     #thirdSection{
+        #thirdBloc{
 
-        #firstBlocPictures {
-            scroll-behavior: smooth;
-            overflow-x: auto;
-        }
-
-        #secondBlocPictures {
-            scroll-behavior: smooth;
-            overflow-x: auto;
-        }
-
-        #enfants {
-            height: 150px;
-            /* Nouvelle hauteur pour écrans étroits */
-            width: 150px;
-            /* Nouvelle largeur pour écrans étroits */
-            font-size: 18px;
-            /* Nouvelle taille de police pour écrans étroits */
-            /* Autres styles spécifiques à l'écran étroit */
+            .blocPictures {
+              
+                #balades{
+                    left: 55%;
+                    width: 130px;
+                    height: 130px;
+                }
+                #enfants{
+                    left: 40%;
+                    width: 130px;
+                    height: 130px;
+                }
+                #cross{
+                    left: 30%;
+                    width: 130px;
+                    height: 130px;
+                }
+                #cours{
+                    left: 30%;
+                    width: 130px;
+                    height: 130px;
+                }
+            }
         }
     }
 
-    #enfants {
-        width: 180px;
-        height: 180px;
+   
+
     }
+  
+ 
 
     footer {
         #blocFooter {
@@ -480,7 +492,7 @@ footer {
 
     #icons {
         display: block;
-        font-size: 38px;
+        font-size: 2.375rem;
 
         &:before {
             content: "\2630";
@@ -504,7 +516,7 @@ footer {
         }
 
         li {
-            padding: 3px 0;
+            padding: 0.188rem 0;
 
             &:hover {
                 background: rgb(157, 217, 240);
@@ -518,13 +530,3 @@ footer {
 
 }
 
-@media screen and (max-width:484px) {
-    .visible {
-        right: 80%;
-    }
-
-    #enfants {
-        left: 30%;
-    }
-
-}
