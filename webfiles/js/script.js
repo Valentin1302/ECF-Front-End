@@ -40,22 +40,4 @@ links.forEach((link) => {
 
 
 
-// SAVOIR +
-
-
-
-    let boutonSavoir = document.querySelector("#savoir");
-    let contenuCaché = document.createElement("p");
-    contenuCaché.id = "caché";
-    contenuCaché.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, illum! Neque illo aut consectetur dolorem odio voluptate, quos natus, vero iusto magnam magni sunt doloremque corruptiaccusantium."
-    
-    
-    boutonSavoir.addEventListener("click",() =>{
-        if (contenuCaché.style.display === "none") {
-            contenuCaché.style.display = "block";
-        } else {
-            contenuCaché.style.display = "none";
-        }
-    });
- console.log(contenuCaché);
 
